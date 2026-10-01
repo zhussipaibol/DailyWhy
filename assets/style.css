@@ -44,13 +44,13 @@
   color-scheme: dark;
 }
 
-[data-domain="bio"] { --c: var(--bio); }
-[data-domain="society"] { --c: var(--society); }
-[data-domain="physics"] { --c: var(--physics); }
-[data-domain="aesthetics"] { --c: var(--aesthetics); }
-[data-domain="sport"] { --c: var(--sport); }
-[data-domain="history"] { --c: var(--history); }
-[data-domain="wild"] { --c: var(--wild); }
+[data-domain="math"] { --c: var(--physics); }
+[data-domain="mind"] { --c: var(--society); }
+[data-domain="physics"] { --c: var(--wild); }
+[data-domain="knowledge"] { --c: var(--history); }
+[data-domain="life"] { --c: var(--bio); }
+[data-domain="society"] { --c: var(--aesthetics); }
+[data-domain="wild"] { --c: var(--sport); }
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }

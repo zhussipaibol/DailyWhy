@@ -2,16 +2,16 @@
   "use strict";
 
   const DOMAINS = {
-    bio:        { name: "Тело и жизнь",        day: 1 },
-    society:    { name: "Общество и мораль",   day: 2 },
-    physics:    { name: "Физика и космос",     day: 3 },
-    aesthetics: { name: "Стиль и эстетика",    day: 4 },
-    sport:      { name: "Спорт и возможности", day: 5 },
-    history:    { name: "История вещей",       day: 6 },
-    wild:       { name: "Что угодно",          day: 0 },
+    math:      { name: "Математика",          day: 1 },
+    mind:      { name: "Разум и сознание",    day: 2 },
+    physics:   { name: "Физика и реальность", day: 3 },
+    knowledge: { name: "Знание и истина",     day: 4 },
+    life:      { name: "Жизнь и эволюция",    day: 5 },
+    society:   { name: "Человек и общество",  day: 6 },
+    wild:      { name: "Предельные вопросы",  day: 0 },
   };
   const WEEK = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"];
-  const WEEK_ORDER = ["bio", "society", "physics", "aesthetics", "sport", "history", "wild"];
+  const WEEK_ORDER = ["math", "mind", "physics", "knowledge", "life", "society", "wild"];
 
   const app = document.getElementById("app");
   let INDEX = null;
@@ -173,16 +173,16 @@
         <a class="btn" href="#/p/${encodeURIComponent(p.slug)}">Читать разбор</a>
       </section>`
       : `<section class="hero"><div class="hero-mark" aria-hidden="true">?</div><h1>Первый вопрос появится завтра утром</h1></section>`;
-    app.innerHTML = hero + weekHTML() + archiveHTML(posts.slice(1).length ? posts : posts, true);
+    app.innerHTML = hero + weekHTML() + archiveHTML(posts, true);
     wireFilters(posts);
-    document.title = "Почемучка";
+    document.title = "Апория";
   }
 
   async function viewArchive() {
     const posts = await loadIndex();
     app.innerHTML = `<div style="height:1rem"></div>` + archiveHTML(posts, true);
     wireFilters(posts);
-    document.title = "Архив · Почемучка";
+    document.title = "Архив · Апория";
   }
 
   async function viewPost(slug) {
@@ -211,28 +211,29 @@
       </nav>
     </article>`;
     wireQuizzes(app);
-    document.title = `${p.title} · Почемучка`;
+    document.title = `${p.title} · Апория`;
   }
 
   function viewAbout() {
     app.innerHTML = `<div class="about prose">
       <h1>Как это устроено</h1>
-      <p>Каждое утро здесь появляется один большой вопрос: откуда мораль, как растут волосы, почему небо синее. Ответ на него объяснён просто, но подробно.</p>
+      <p><strong>Апория</strong> — по-гречески «безвыходность». Так древние философы называли вопрос, в котором логика заводит в тупик: Ахиллес не может догнать черепаху, хотя очевидно догоняет.</p>
+      <p>Каждое утро здесь появляется один такой вопрос. Почему математика описывает мир? Что такое «я»? Существует ли время? Почему вообще есть что-то, а не ничто? Каждый разобран глубоко: с историей идей, главными позициями, экспериментами и тем, что пока никто не знает.</p>
       <h2>Из чего состоит выпуск</h2>
       <ul>
-        <li><strong>Крючок.</strong> Странный факт или парадокс, с которого всё начинается.</li>
-        <li><strong>Если коротко.</strong> Ответ в двух предложениях.</li>
-        <li><strong>Разбор.</strong> Как это устроено на самом деле, с примерами и аналогиями.</li>
-        <li><strong>Где учёные спорят.</strong> Что пока не известно наверняка.</li>
-        <li><strong>Неожиданная связь.</strong> Как тема пересекается с совсем другой областью.</li>
-        <li><strong>Проверь себя и подумай сам.</strong> Пара вопросов и одна задача без ответа.</li>
+        <li><strong>Крючок.</strong> Парадокс, эксперимент или история, с которой всё начинается.</li>
+        <li><strong>Если коротко.</strong> Суть в нескольких предложениях.</li>
+        <li><strong>Разбор.</strong> От простого к сложному: что известно, как к этому пришли, какие есть позиции.</li>
+        <li><strong>Где ответа нет.</strong> Открытые проблемы и честные споры.</li>
+        <li><strong>Неожиданная связь.</strong> Как вопрос пересекается с совсем другой областью.</li>
+        <li><strong>Проверь себя, подумай сам и что почитать.</strong> Квиз, открытый вопрос и источники.</li>
       </ul>
       <h2>Темы по дням</h2>
-      <p>Понедельник — тело и жизнь, вторник — общество и мораль, среда — физика и космос, четверг — стиль и эстетика, пятница — спорт и возможности, суббота — история вещей, воскресенье — что угодно.</p>
+      <p>Понедельник — математика, вторник — разум и сознание, среда — физика и реальность, четверг — знание и истина, пятница — жизнь и эволюция, суббота — человек и общество, воскресенье — предельные вопросы.</p>
       <h2>Свой вопрос</h2>
       <p>Чтобы предложить вопрос, допиши его в файл <code>queue.md</code> в репозитории сайта. Он попадёт в один из ближайших выпусков.</p>
     </div>`;
-    document.title = "Как это устроено · Почемучка";
+    document.title = "Как это устроено · Апория";
   }
 
   // ---------- router ----------
