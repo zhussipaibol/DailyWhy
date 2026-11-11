@@ -12,6 +12,7 @@
   --sport: #C9600E;
   --history: #8F6A10;
   --wild: #1A7F7F;
+  --philo: #B0472A;
 
   --display: "Unbounded", "Arial Black", sans-serif;
   --text: "Literata", Georgia, serif;
@@ -34,13 +35,14 @@
     --sport: #F5A15A;
     --history: #E2B84E;
     --wild: #4FC9C9;
+    --philo: #EE8B66;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --paper: #171B24; --paper-2: #212633; --ink: #E9EBE5; --muted: #A4AAB6; --rule: #343A48;
   --bio: #5CC39A; --society: #D58BC6; --physics: #86A5FF; --aesthetics: #F2809F;
-  --sport: #F5A15A; --history: #E2B84E; --wild: #4FC9C9;
+  --sport: #F5A15A; --history: #E2B84E; --wild: #4FC9C9; --philo: #EE8B66;
   color-scheme: dark;
 }
 
@@ -51,6 +53,7 @@
 [data-domain="life"] { --c: var(--bio); }
 [data-domain="society"] { --c: var(--aesthetics); }
 [data-domain="wild"] { --c: var(--sport); }
+[data-domain="philo"] { --c: var(--philo); }
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }

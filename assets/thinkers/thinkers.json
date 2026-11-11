@@ -1,0 +1,481 @@
+{
+ "thinkers": {
+  "socrates": {
+   "name": "Сократ",
+   "short": "Сократ",
+   "years": "ок. 470–399 до н. э.",
+   "img": "assets/thinkers/socrates.jpg",
+   "credit": {
+    "author": "Copy of Lysippos (?)",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg"
+   }
+  },
+  "plato": {
+   "name": "Платон",
+   "short": "Платон",
+   "years": "ок. 428–348 до н. э.",
+   "img": "assets/thinkers/plato.jpg",
+   "credit": {
+    "author": "Marie-Lan Nguyen",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.png"
+   }
+  },
+  "aristotle": {
+   "name": "Аристотель",
+   "short": "Аристотель",
+   "years": "384–322 до н. э.",
+   "img": "assets/thinkers/aristotle.jpg",
+   "credit": {
+    "author": "After Lysippos",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg"
+   }
+  },
+  "diogenes": {
+   "name": "Диоген Синопский",
+   "short": "Диоген",
+   "years": "ок. 412–323 до н. э.",
+   "img": "assets/thinkers/diogenes.jpg",
+   "credit": {
+    "author": "автор неизвестен",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Diogenes_Mosaic_R%C3%B6misch-Germanisches_Museum.jpg"
+   }
+  },
+  "epicurus": {
+   "name": "Эпикур",
+   "short": "Эпикур",
+   "years": "341–270 до н. э.",
+   "img": "assets/thinkers/epicurus.jpg",
+   "credit": {
+    "author": "автор неизвестен",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Epikouros_BM_1843.jpg"
+   }
+  },
+  "buddha": {
+   "name": "Будда Шакьямуни",
+   "short": "Будда",
+   "years": "ок. V в. до н. э.",
+   "img": "assets/thinkers/buddha.jpg",
+   "credit": {
+    "author": "พระมหาเทวประภาส วชิรญาณเมธี (ผู้ถ่าย-ปล่อยสัญญาอนุญาตภาพให้นำไปใช้ได้เพื่อการศึกษาโดยอยู่ภ",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Buddha_in_Sarnath_Museum_(Dhammajak_Mutra).jpg"
+   }
+  },
+  "seneca": {
+   "name": "Луций Анней Сенека",
+   "short": "Сенека",
+   "years": "ок. 4 до н. э. – 65 н. э.",
+   "img": "assets/thinkers/seneca.jpg",
+   "credit": {
+    "author": "Calidius",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg"
+   }
+  },
+  "epictetus": {
+   "name": "Эпиктет",
+   "short": "Эпиктет",
+   "years": "ок. 50–135",
+   "img": "assets/thinkers/epictetus.jpg",
+   "credit": {
+    "author": "William Sonmans / Michael Burghers",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Epicteti_Enchiridion_Latinis_versibus_adumbratum_(Oxford_1715)_frontispiece_(cropped).jpg"
+   }
+  },
+  "marcus": {
+   "name": "Марк Аврелий",
+   "short": "Марк Аврелий",
+   "years": "121–180",
+   "img": "assets/thinkers/marcus.jpg",
+   "credit": {
+    "author": "Daniel Martin",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:MSR-ra-61-b-1-DM.jpg"
+   }
+  },
+  "augustine": {
+   "name": "Августин Блаженный",
+   "short": "Августин",
+   "years": "354–430",
+   "img": "assets/thinkers/augustine.jpg",
+   "credit": {
+    "author": "Philippe de Champaigne",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+   }
+  },
+  "machiavelli": {
+   "name": "Никколо Макиавелли",
+   "short": "Макиавелли",
+   "years": "1469–1527",
+   "img": "assets/thinkers/machiavelli.jpg",
+   "credit": {
+    "author": "Santi di Tito",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg"
+   }
+  },
+  "montaigne": {
+   "name": "Мишель де Монтень",
+   "short": "Монтень",
+   "years": "1533–1592",
+   "img": "assets/thinkers/montaigne.jpg",
+   "credit": {
+    "author": "автор неизвестен",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Michel_de_Montaigne,_circa_unknown.jpg"
+   }
+  },
+  "hobbes": {
+   "name": "Томас Гоббс",
+   "short": "Гоббс",
+   "years": "1588–1679",
+   "img": "assets/thinkers/hobbes.jpg",
+   "credit": {
+    "author": "John Michael Wright",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Thomas_Hobbes_by_John_Michael_Wright_(colour)_(3x4_cropped).jpg"
+   }
+  },
+  "pascal": {
+   "name": "Блез Паскаль",
+   "short": "Паскаль",
+   "years": "1623–1662",
+   "img": "assets/thinkers/pascal.jpg",
+   "credit": {
+    "author": "unknown; a copy of the painting of François II Quesnel, which was made for Gérard Edelinck",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Blaise_Pascal_Versailles,_circa_1690.JPG"
+   }
+  },
+  "spinoza": {
+   "name": "Бенедикт Спиноза",
+   "short": "Спиноза",
+   "years": "1632–1677",
+   "img": "assets/thinkers/spinoza.jpg",
+   "credit": {
+    "author": "anonymous",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Spinoza.jpg"
+   }
+  },
+  "locke": {
+   "name": "Джон Локк",
+   "short": "Локк",
+   "years": "1632–1704",
+   "img": "assets/thinkers/locke.jpg",
+   "credit": {
+    "author": "Godfrey Kneller",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Godfrey_Kneller_-_Portrait_of_John_Locke_(Hermitage).jpg"
+   }
+  },
+  "hume": {
+   "name": "Дэвид Юм",
+   "short": "Юм",
+   "years": "1711–1776"
+  },
+  "rousseau": {
+   "name": "Жан-Жак Руссо",
+   "short": "Руссо",
+   "years": "1712–1778",
+   "img": "assets/thinkers/rousseau.jpg",
+   "credit": {
+    "author": "Maurice Quentin de La Tour  (Life time: 1788)",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg"
+   }
+  },
+  "kant": {
+   "name": "Иммануил Кант",
+   "short": "Кант",
+   "years": "1724–1804",
+   "img": "assets/thinkers/kant.jpg",
+   "credit": {
+    "author": "Johann Gottlieb Becker (1720-1782)",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg"
+   }
+  },
+  "bentham": {
+   "name": "Иеремия Бентам",
+   "short": "Бентам",
+   "years": "1748–1832",
+   "img": "assets/thinkers/bentham.jpg",
+   "credit": {
+    "author": "Henry William Pickersgill",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Jeremy_Bentham_by_Henry_William_Pickersgill.jpg"
+   }
+  },
+  "constant": {
+   "name": "Бенжамен Констан",
+   "short": "Констан",
+   "years": "1767–1830",
+   "img": "assets/thinkers/constant.jpg",
+   "credit": {
+    "author": "Hercule de Roche",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Roche_-_Portrait_de_Benjamin_Constant_(1767-1830),_%C3%A9crivain_et_homme_politique_-_P1679_-_Mus%C3%A9e_Carnavalet_(cropped).jpg"
+   }
+  },
+  "schopenhauer": {
+   "name": "Артур Шопенгауэр",
+   "short": "Шопенгауэр",
+   "years": "1788–1860",
+   "img": "assets/thinkers/schopenhauer.jpg",
+   "credit": {
+    "author": "Johann Schäfer",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg"
+   }
+  },
+  "mill": {
+   "name": "Джон Стюарт Милль",
+   "short": "Милль",
+   "years": "1806–1873",
+   "img": "assets/thinkers/mill.jpg",
+   "credit": {
+    "author": "London Stereoscopic Company",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:John_Stuart_Mill_by_London_Stereoscopic_Company,_c1870.jpg"
+   }
+  },
+  "kierkegaard": {
+   "name": "Сёрен Кьеркегор",
+   "short": "Кьеркегор",
+   "years": "1813–1855",
+   "img": "assets/thinkers/kierkegaard.jpg",
+   "credit": {
+    "author": "La Biblioteca Real de Dinamarca",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:S%C3%B8ren_Kierkegaard_(1813-1855)_-_(cropped).jpg"
+   }
+  },
+  "marx": {
+   "name": "Карл Маркс",
+   "short": "Маркс",
+   "years": "1818–1883",
+   "img": "assets/thinkers/marx.jpg",
+   "credit": {
+    "author": "John Jabez Edwin Mayall",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
+   }
+  },
+  "dostoevsky": {
+   "name": "Фёдор Достоевский",
+   "short": "Достоевский",
+   "years": "1821–1881",
+   "img": "assets/thinkers/dostoevsky.jpg",
+   "credit": {
+    "author": "Vasily Perov",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg"
+   }
+  },
+  "tolstoy": {
+   "name": "Лев Толстой",
+   "short": "Толстой",
+   "years": "1828–1910",
+   "img": "assets/thinkers/tolstoy.jpg",
+   "credit": {
+    "author": "Sergei Prokudin-Gorskii",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Leo_Tolstoy_1908_Portrait_(3x4_cropped).jpg"
+   }
+  },
+  "nietzsche": {
+   "name": "Фридрих Ницше",
+   "short": "Ницше",
+   "years": "1844–1900",
+   "img": "assets/thinkers/nietzsche.jpg",
+   "credit": {
+    "author": "Friedrich Hermann Hartmann",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Nietzsche187a.jpg"
+   }
+  },
+  "weber": {
+   "name": "Макс Вебер",
+   "short": "Вебер",
+   "years": "1864–1920",
+   "img": "assets/thinkers/weber.jpg",
+   "credit": {
+    "author": "Ernst Gottmann",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Max_Weber,_1918.jpg"
+   }
+  },
+  "russell": {
+   "name": "Бертран Рассел",
+   "short": "Рассел",
+   "years": "1872–1970",
+   "img": "assets/thinkers/russell.jpg",
+   "credit": {
+    "author": "Bassano Ltd",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Bertrand_Russell_in_1936.jpg"
+   }
+  },
+  "buber": {
+   "name": "Мартин Бубер",
+   "short": "Бубер",
+   "years": "1878–1965",
+   "img": "assets/thinkers/buber.jpg",
+   "credit": {
+    "author": "автор неизвестен",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Martin_Buber_portrait.jpg"
+   }
+  },
+  "heidegger": {
+   "name": "Мартин Хайдеггер",
+   "short": "Хайдеггер",
+   "years": "1889–1976",
+   "img": "assets/thinkers/heidegger.jpg",
+   "credit": {
+    "author": "Willy Pragher",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Freiburg,_Z%C3%A4hringen-_Jahnhalle,_Prof._Martin_Heidegger_w%C3%A4hrend_eines_Vortrags_-_LABW_-_Staatsarchiv_Freiburg_W_134_Nr._023740f_(cropped).jpeg"
+   }
+  },
+  "fromm": {
+   "name": "Эрих Фромм",
+   "short": "Фромм",
+   "years": "1900–1980",
+   "img": "assets/thinkers/fromm.jpg",
+   "credit": {
+    "author": "Müller-May",
+    "license": "CC BY-SA 3.0 de",
+    "url": "https://commons.wikimedia.org/wiki/File:Erich_Fromm_1974.jpg"
+   }
+  },
+  "frankl": {
+   "name": "Виктор Франкл",
+   "short": "Франкл",
+   "years": "1905–1997",
+   "img": "assets/thinkers/frankl.jpg",
+   "credit": {
+    "author": "Prof. Dr. Franz Vesely",
+    "license": "CC BY-SA 3.0 de",
+    "url": "https://commons.wikimedia.org/wiki/File:Viktor_Frankl2.jpg"
+   }
+  },
+  "sartre": {
+   "name": "Жан-Поль Сартр",
+   "short": "Сартр",
+   "years": "1905–1980",
+   "img": "assets/thinkers/sartre.jpg",
+   "credit": {
+    "author": "автор неизвестен",
+    "license": "CC BY-SA 3.0 nl",
+    "url": "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1965.jpg"
+   }
+  },
+  "arendt": {
+   "name": "Ханна Арендт",
+   "short": "Арендт",
+   "years": "1906–1975",
+   "img": "assets/thinkers/arendt.jpg",
+   "credit": {
+    "author": "Barbara Niggl Radloff",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hannah_Arendt_auf_dem_1._Kulturkritikerkongress,_Barbara_Niggl_Radloff,_FM-2019-1-5-9-16_(cropped).jpg"
+   }
+  },
+  "beauvoir": {
+   "name": "Симона де Бовуар",
+   "short": "Бовуар",
+   "years": "1908–1986",
+   "img": "assets/thinkers/beauvoir.jpg",
+   "credit": {
+    "author": "Moshe Milner",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Simone_De_Beauvoir_(cropped).jpg"
+   }
+  },
+  "weil": {
+   "name": "Симона Вейль",
+   "short": "Вейль",
+   "years": "1909–1943",
+   "img": "assets/thinkers/weil.jpg",
+   "credit": {
+    "author": "Unknown",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Simone_Weil_1943.jpg"
+   }
+  },
+  "berlin": {
+   "name": "Исайя Берлин",
+   "short": "Берлин",
+   "years": "1909–1997",
+   "img": "assets/thinkers/berlin.jpg",
+   "credit": {
+    "author": "Rob C. Croes (ANEFO)",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:IsaiahBerlin1983.jpg"
+   }
+  },
+  "camus": {
+   "name": "Альбер Камю",
+   "short": "Камю",
+   "years": "1913–1960",
+   "img": "assets/thinkers/camus.jpg",
+   "credit": {
+    "author": "Photograph by United Press International",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Albert_Camus,_gagnant_de_prix_Nobel,_portrait_en_buste,_pos%C3%A9_au_bureau,_faisant_face_%C3%A0_gauche,_cigarette_de_tabagisme.jpg"
+   }
+  },
+  "solzhenitsyn": {
+   "name": "Александр Солженицын",
+   "short": "Солженицын",
+   "years": "1918–2008",
+   "img": "assets/thinkers/solzhenitsyn.jpg",
+   "credit": {
+    "author": "Bert Verhoeff for Anefo",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Aleksandr_Solzhenitsyn_1974crop.jpg"
+   }
+  },
+  "foot": {
+   "name": "Филиппа Фут",
+   "short": "Фут",
+   "years": "1920–2010"
+  },
+  "foucault": {
+   "name": "Мишель Фуко",
+   "short": "Фуко",
+   "years": "1926–1984",
+   "img": "assets/thinkers/foucault.jpg",
+   "credit": {
+    "author": "Jerry Bauer",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Photo_of_Michel_Foucault_on_1970_dustjacket_of_The_Order_of_Things.jpg"
+   }
+  },
+  "williams": {
+   "name": "Бернард Уильямс",
+   "short": "Уильямс",
+   "years": "1929–2003"
+  },
+  "nozick": {
+   "name": "Роберт Нозик",
+   "short": "Нозик",
+   "years": "1938–2002",
+   "img": "assets/thinkers/nozick.jpg",
+   "credit": {
+    "author": "Libertarian Review",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Robert_Nozick_1977_Libertarian_Review_cover_(4x5_cropped).jpg"
+   }
+  }
+ }
+}

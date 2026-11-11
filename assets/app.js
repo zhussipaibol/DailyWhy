@@ -241,11 +241,13 @@
     const h = location.hash.replace(/^#\/?/, "");
     document.querySelectorAll(".site-nav a").forEach((a) => {
       const target = a.getAttribute("href").replace(/^#\/?/, "");
-      a.toggleAttribute("aria-current", target === h || (target === "" && h === ""));
+      a.toggleAttribute("aria-current", target === h || (target === "" && h === "") || (target === "symposium" && h.startsWith("s/")));
       if (a.hasAttribute("aria-current")) a.setAttribute("aria-current", "page");
     });
     try {
       if (h.startsWith("p/")) await viewPost(decodeURIComponent(h.slice(2)));
+      else if (h === "symposium") await window.Symposium.index(app);
+      else if (h.startsWith("s/")) await window.Symposium.issue(app, decodeURIComponent(h.slice(2)));
       else if (h === "archive") await viewArchive();
       else if (h === "about") viewAbout();
       else await viewHome();
